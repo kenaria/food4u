@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&family=PT+Serif&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Food4u</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__wrapper container">
+            <div class="header__top">
+                <a href="#" class="logotype">
+                    <svg id="header-logotype">
+                        <use xlink:href="img/sprite.svg#logo-header"></use>
+                    </svg>
+                </a>
+                <div class="header__nav-content">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#" class="header__item-link">Каталог рецептов</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#" class="header__item-link">Спецпроекты</a>
+                            </li>
+                            <li class="header__list-item">
+                                <a href="#" class="header__item-link">Шеф-повар</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="btn">Предложить рецепт</a>
+                </div>
+                
+                <div class="menu-btn">
+                    <span class="menu-btn__item"></span>
+                    <span class="menu-btn__item"></span>
+                    <span class="menu-btn__item"></span>
+                </div>
+            </div>
+            <div class="header__body">
+                <div class="title">
+                    <h1 class="title__name">Новогодние рецепты со всего мира</h1>
+                    <p class="title__text">Для тех, кто даже в пылу дедлайнов и новогдней суеты ни на минуту не перестаёт хотеть есть — найдите рецепт по вкусу за пару кликов!</p>
+                </div>
+                <div class="header__body-content">
+                    <a href="#" class="header__body-item">
+                        <div class="header__item-img">
+                            <img src="./img/header-picture-1.avif" alt="Main Dishes">
+                        </div>
+                        <p class="header__item-text">Основные блюда</p>
+                    </a>
+                    <a href="#" class="header__body-item">
+                        <div class="header__item-img">
+                            <img src="./img/header-picture-2.avif" alt="Desert">
+                        </div>
+                        <p class="header__item-text">Десерты</p>
+                    </a>
+                    <a href="#" class="header__body-item">
+                        <div class="header__item-img">
+                            <img src="./img/header-picture-3.avif" alt="Drinks">
+                        </div>
+                        <p class="header__item-text">Напитки</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main class="main">
+            <section class="last-recipe">
+                <div class="last-recipe__wrapper container">
+                    <div class="title">
+                        <h2 class="title__name">Последние рецепты</h2>
+                    </div>
+                    <div class="last-recipe__content">
+                        <a href="#" class="last-recipe__item">
+                            <div class="last-recipe__item-img">
+                                <img src="./img/last-recipte1.avif" alt="Salad">
+                            </div>
+                            <div class="last-recipe__item-info">
+                                <span class="last-recipe__item-title">Просто оливьешка как в детстве</span>
+                                <div class="last-recipe__info-content">
+                                    <div class="last-recipe__item-ingredients">
+                                        <span class="last-recipe__text">7 ингредиентов</span>
+                                    </div>
+                                    <div class="last-recipe__item-time">
+                                        <div class="last-recipe__icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2ZM17 11.5V13H11V7H12.5V11.5H17Z" fill="#999999"/>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__text">1 час</span>
+                                    </div>
+                                    <div class="last-recipe__item-repost">
+                                        <div class="last-recipe__icon">
+                                            <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_598)">
+                                                <path d="M12.25 0H1.75C0.78349 0 0 0.755508 0 1.6875V18L7 14.0625L14 18V1.6875C14 0.755508 13.2165 0 12.25 0ZM12.25 15.062L7 12.1089L1.75 15.062V1.89844C1.75 1.84249 1.77305 1.78884 1.81407 1.74928C1.85509 1.70972 1.91073 1.6875 1.96875 1.6875H12.0312C12.1521 1.6875 12.25 1.78182 12.25 1.8983V15.062Z" fill="#999999"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_1_598">
+                                                <rect width="14" height="18" fill="white"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__number">378</span>
+                                    </div>
+                                </div>                               
+                            </div>
+                        </a>
+                        <a href="#" class="last-recipe__item">
+                            <div class="last-recipe__item-img">
+                                <img src="./img/last-recipte2.avif" alt="Salad">
+                            </div>
+                            <div class="last-recipe__item-info">
+                                <span class="last-recipe__item-title">Кусок мяса прокопчённый в пылу дедлайна</span>
+                                <div class="last-recipe__info-content">
+                                    <div class="last-recipe__item-ingredients">
+                                        <span class="last-recipe__text">3 ингредиентов</span>
+                                    </div>
+                                    <div class="last-recipe__item-time">
+                                        <div class="last-recipe__icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2ZM17 11.5V13H11V7H12.5V11.5H17Z" fill="#999999"/>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__text">1 час</span>
+                                    </div>
+                                    <div class="last-recipe__item-repost">
+                                        <div class="last-recipe__icon">
+                                            <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_598)">
+                                                <path d="M12.25 0H1.75C0.78349 0 0 0.755508 0 1.6875V18L7 14.0625L14 18V1.6875C14 0.755508 13.2165 0 12.25 0ZM12.25 15.062L7 12.1089L1.75 15.062V1.89844C1.75 1.84249 1.77305 1.78884 1.81407 1.74928C1.85509 1.70972 1.91073 1.6875 1.96875 1.6875H12.0312C12.1521 1.6875 12.25 1.78182 12.25 1.8983V15.062Z" fill="#999999"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_1_598">
+                                                <rect width="14" height="18" fill="white"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__number">578</span>
+                                    </div>
+                                </div>                               
+                            </div>
+                        </a>
+                        <a href="#" class="last-recipe__item">
+                            <div class="last-recipe__item-img">
+                                <img src="./img/last-recipte3.avif" alt="Salad">
+                            </div>
+                            <div class="last-recipe__item-info">
+                                <span class="last-recipe__item-title">Сердечко дизайнера разбитое правками</span>
+                                <div class="last-recipe__info-content">
+                                    <div class="last-recipe__item-ingredients">
+                                        <span class="last-recipe__text">5 ингредиентов</span>
+                                    </div>
+                                    <div class="last-recipe__item-time">
+                                        <div class="last-recipe__icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2ZM17 11.5V13H11V7H12.5V11.5H17Z" fill="#999999"/>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__text">2 час</span>
+                                    </div>
+                                    <div class="last-recipe__item-repost">
+                                        <div class="last-recipe__icon">
+                                            <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_598)">
+                                                <path d="M12.25 0H1.75C0.78349 0 0 0.755508 0 1.6875V18L7 14.0625L14 18V1.6875C14 0.755508 13.2165 0 12.25 0ZM12.25 15.062L7 12.1089L1.75 15.062V1.89844C1.75 1.84249 1.77305 1.78884 1.81407 1.74928C1.85509 1.70972 1.91073 1.6875 1.96875 1.6875H12.0312C12.1521 1.6875 12.25 1.78182 12.25 1.8983V15.062Z" fill="#999999"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_1_598">
+                                                <rect width="14" height="18" fill="white"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__number">178</span>
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="new-recipe">
+                                <span>Новинка</span>
+                            </div>
+                        </a>
+                        <a href="#" class="last-recipe__item">
+                            <div class="last-recipe__item-img">
+                                <img src="./img/last-recipte4.avif" alt="Salad">
+                            </div>
+                            <div class="last-recipe__item-info">
+                                <span class="last-recipe__item-title">Макарошки в модном соусе по рецепту из Тик Тока</span>
+                                <div class="last-recipe__info-content">
+                                    <div class="last-recipe__item-ingredients">
+                                        <span class="last-recipe__text">8 ингредиентов</span>
+                                    </div>
+                                    <div class="last-recipe__item-time">
+                                        <div class="last-recipe__icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M12 20C16.4 20 20 16.4 20 12C20 7.6 16.4 4 12 4C7.6 4 4 7.6 4 12C4 16.4 7.6 20 12 20ZM12 2C17.5 2 22 6.5 22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2ZM17 11.5V13H11V7H12.5V11.5H17Z" fill="#999999"/>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__text">1 час</span>
+                                    </div>
+                                    <div class="last-recipe__item-repost">
+                                        <div class="last-recipe__icon">
+                                            <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_1_598)">
+                                                <path d="M12.25 0H1.75C0.78349 0 0 0.755508 0 1.6875V18L7 14.0625L14 18V1.6875C14 0.755508 13.2165 0 12.25 0ZM12.25 15.062L7 12.1089L1.75 15.062V1.89844C1.75 1.84249 1.77305 1.78884 1.81407 1.74928C1.85509 1.70972 1.91073 1.6875 1.96875 1.6875H12.0312C12.1521 1.6875 12.25 1.78182 12.25 1.8983V15.062Z" fill="#999999"/>
+                                                </g>
+                                                <defs>
+                                                <clipPath id="clip0_1_598">
+                                                <rect width="14" height="18" fill="white"/>
+                                                </clipPath>
+                                                </defs>
+                                            </svg>                                                
+                                        </div>
+                                        <span class="last-recipe__number">278</span>
+                                    </div>
+                                </div>                               
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer_wrapper container">
+            <div class="footer__body">
+                <div class="footer__body-left">
+                    <a href="#" class="logotype">
+                        <svg id="footer-logotype">
+                            <use xlink:href="img/sprite.svg#logo-footer"></use>
+                        </svg>
+                    </a>
+                    <p class="footer__text">Все права защещены, информация предоставленна исключительно в ознакомительных целях.</p>
+                    <p class="footer__text">Если кто-то отравился — мы тут не виноваты!</p>
+                </div>
+                <div class="footer__body-right">
+                    <nav class="footer__nav">
+                        <span class="footer__nav-title">Рецепты</span>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Закуски</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Супы</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Горячее</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Паста</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Ризотто</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Десерты</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Напитки</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <nav class="footer__nav">
+                        <span class="footer__nav-title">Сообщество</span>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Блог</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Предложить рецепт</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Спецпроекты</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Коллаборации</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Партнёры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__item-link">Связаться с нами</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__communication">
+                    <span class="footer__communication-title">Будем на связи</span>
+                    <div class="footer__communication-list">
+                        <a href="#" class="footer__communication-item">
+                            <svg class="instagramm" width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M26 19.2308C22.2727 19.2308 19.2309 22.2726 19.2309 25.9999C19.2309 29.7273 22.2727 32.7691 26 32.7691C29.7273 32.7691 32.7691 29.7273 32.7691 25.9999C32.7691 22.2726 29.7273 19.2308 26 19.2308ZM46.3023 25.9999C46.3023 23.1968 46.3277 20.4191 46.1703 17.621C46.0129 14.371 45.2715 11.4867 42.8949 9.1101C40.5133 6.72846 37.634 5.99214 34.384 5.83471C31.5809 5.67729 28.8031 5.70268 26.0051 5.70268C23.202 5.70268 20.4242 5.67729 17.6262 5.83471C14.3762 5.99214 11.4918 6.73354 9.11523 9.1101C6.73359 11.4917 5.99726 14.371 5.83984 17.621C5.68242 20.4242 5.70781 23.2019 5.70781 25.9999C5.70781 28.798 5.68242 31.5808 5.83984 34.3789C5.99726 37.6289 6.73867 40.5132 9.11523 42.8898C11.4969 45.2714 14.3762 46.0078 17.6262 46.1652C20.4293 46.3226 23.207 46.2972 26.0051 46.2972C28.8082 46.2972 31.5859 46.3226 34.384 46.1652C37.634 46.0078 40.5184 45.2663 42.8949 42.8898C45.2766 40.5081 46.0129 37.6289 46.1703 34.3789C46.3328 31.5808 46.3023 28.8031 46.3023 25.9999ZM26 36.4152C20.2363 36.4152 15.5848 31.7636 15.5848 25.9999C15.5848 20.2363 20.2363 15.5847 26 15.5847C31.7637 15.5847 36.4152 20.2363 36.4152 25.9999C36.4152 31.7636 31.7637 36.4152 26 36.4152ZM36.8418 17.5906C35.4961 17.5906 34.4094 16.5039 34.4094 15.1581C34.4094 13.8124 35.4961 12.7257 36.8418 12.7257C38.1875 12.7257 39.2742 13.8124 39.2742 15.1581C39.2746 15.4777 39.212 15.7942 39.0899 16.0895C38.9678 16.3848 38.7886 16.6531 38.5627 16.879C38.3367 17.105 38.0684 17.2841 37.7731 17.4062C37.4778 17.5283 37.1613 17.591 36.8418 17.5906Z" fill="#999999"/>
+                            </svg>   
+                        </a>                        
+                        <a href="#" class="footer__communication-item">
+                            <svg class="vk" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_667)">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M52.7625 13.383C53.136 12.1545 52.7625 11.25 50.9738 11.25H45.0675C43.5645 11.25 42.8715 12.0308 42.4957 12.8925C42.4957 12.8925 39.492 20.0835 35.2373 24.7545C33.8603 26.109 33.2347 26.5388 32.4832 26.5388C32.1075 26.5388 31.5427 26.109 31.5427 24.8783V13.383C31.5427 11.907 31.1287 11.25 29.8778 11.25H20.5898C19.6515 11.25 19.0868 11.934 19.0868 12.5843C19.0868 13.9815 21.2153 14.3055 21.4335 18.2385V26.784C21.4335 28.6583 21.0892 28.998 20.3377 28.998C18.3352 28.998 13.464 21.7733 10.5728 13.5068C10.0125 11.898 9.4455 11.25 7.93575 11.25H2.025C0.3375 11.25 0 12.0308 0 12.8925C0 14.427 2.0025 22.05 9.32625 32.1323C14.2087 39.0173 21.0825 42.75 27.3442 42.75C31.0995 42.75 31.563 41.922 31.563 40.4933V35.289C31.563 33.6308 31.9185 33.3 33.1087 33.3C33.9863 33.3 35.487 33.732 38.9925 37.0508C42.9975 40.986 43.6567 42.75 45.9113 42.75H51.8175C53.505 42.75 54.351 41.922 53.865 40.284C53.3295 38.655 51.417 36.2903 48.8813 33.4845C47.5042 31.887 45.4388 30.1658 44.811 29.304C43.9357 28.1993 44.1855 27.7065 44.811 26.7233C44.811 26.7233 52.011 16.7648 52.7603 13.383H52.7625Z" fill="#999999"/>
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_1_667">
+                                <rect width="54" height="54" fill="white"/>
+                                </clipPath>
+                                </defs>
+                            </svg>                                
+                        </a>
+                        <a href="#" class="footer__communication-item">
+                            <svg class="youtube" width="54" height="38" viewBox="0 0 54 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M52.875 6.64068C52.5692 5.54995 51.9736 4.56245 51.1515 3.78318C50.3061 2.97993 49.2701 2.40536 48.141 2.11368C43.9155 0.999927 26.9865 0.999927 26.9865 0.999927C19.929 0.91963 12.8732 1.27279 5.859 2.05743C4.72993 2.37066 3.69577 2.95807 2.8485 3.76743C2.016 4.56843 1.413 5.55618 1.098 6.63843C0.341309 10.7148 -0.0263428 14.8539 1.12457e-07 18.9999C-0.0269999 23.1422 0.33975 27.2799 1.098 31.3614C1.40625 32.4392 2.007 33.4224 2.84175 34.2167C3.6765 35.0109 4.716 35.5847 5.859 35.8884C10.1408 36.9999 26.9865 36.9999 26.9865 36.9999C34.053 37.0803 41.1178 36.7272 48.141 35.9424C49.2701 35.6507 50.3061 35.0762 51.1515 34.2729C51.984 33.4787 52.5758 32.4909 52.8728 31.4154C53.6492 27.3406 54.0267 23.1998 54 19.0517C54.0584 14.886 53.6814 10.7257 52.875 6.63843V6.64068ZM21.6045 26.7039V11.2982L35.6895 19.0022L21.6045 26.7039Z" fill="#999999"/>
+                            </svg>                                
+                        </a>
+                        <a href="#" class="footer__communication-item">
+                            <svg class="pinterest" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 27C0 38.5267 7.22475 48.3683 17.3925 52.2405C17.145 50.1323 16.8818 46.656 17.4487 44.217C17.937 42.12 20.601 30.8565 20.601 30.8565C20.601 30.8565 19.7977 29.2477 19.7977 26.865C19.7977 23.13 21.9622 20.34 24.66 20.34C26.955 20.34 28.062 22.0613 28.062 24.1245C28.062 26.4307 26.5928 29.8778 25.8345 33.075C25.2023 35.7502 27.1778 37.9327 29.8148 37.9327C34.5915 37.9327 38.2658 32.895 38.2658 25.623C38.2658 19.1857 33.6397 14.688 27.036 14.688C19.3905 14.688 14.9018 20.4233 14.9018 26.352C14.9018 28.6628 15.7905 31.1377 16.902 32.4855C16.9968 32.5873 17.0637 32.7118 17.0964 32.8469C17.1291 32.9821 17.1265 33.1234 17.0887 33.2573C16.884 34.1077 16.4295 35.9325 16.3417 36.306C16.2225 36.7965 15.9525 36.9022 15.4417 36.6637C12.0848 35.1022 9.98775 30.195 9.98775 26.253C9.98775 17.7728 16.146 9.98775 27.7448 9.98775C37.0688 9.98775 44.316 16.632 44.316 25.5105C44.316 34.7738 38.4772 42.2302 30.3682 42.2302C27.6435 42.2302 25.0852 40.8127 24.2078 39.141C24.2078 39.141 22.86 44.2755 22.5338 45.531C21.8993 47.97 20.1397 51.057 19.0485 52.8098C21.564 53.5838 24.2325 54 27 54C41.9108 54 54 41.9108 54 27C54 12.0893 41.9108 0 27 0C12.0893 0 0 12.0893 0 27Z" fill="#999999"/>
+                            </svg>                                
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__our-result">
+                    <div class="footer__recipe">
+                        <span class="footer__recipe-number">7000+</span>
+                        <span class="footer__recipe-text">рецептов</span>
+                    </div>
+                    <div class="footer__author">
+                        <span class="footer__recipe-number">532</span>
+                        <span class="footer__recipe-text">автора</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
